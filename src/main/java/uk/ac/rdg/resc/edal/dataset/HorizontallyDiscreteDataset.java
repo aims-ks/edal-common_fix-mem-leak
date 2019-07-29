@@ -195,7 +195,7 @@ public abstract class HorizontallyDiscreteDataset<DS extends DataSource> extends
             }
 
             // The println is to be sure the script is using the modified version of the class.
-            System.out.println("################# GAEL HACKED VERSION n.21 OF HorizontallyDiscreteDataset.extractMapFeatures #################");
+            log.debug("################# GAEL HACKED VERSION n.21 OF HorizontallyDiscreteDataset.extractMapFeatures #################");
             // There is a memory leak with the following line. I don't know why...
             // domain is instance of uk.ac.rdg.resc.edal.domain.MapDomain
 //            domain.setVerticalCrs(vCrs);
