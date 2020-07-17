@@ -11,6 +11,8 @@
 	<name>Edal common - Fix memory leak</name>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
 		<!-- edal-common was compiled for Java 1.8 -->
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -41,4 +43,12 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub AIMS-KS Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/aims-ks/edal-common_fix-mem-leak</url>
+		</repository>
+	</distributionManagement>
 </project>
