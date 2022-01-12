@@ -13,6 +13,13 @@ This jar is not a replacement for edal-commons, it's just an overwrite. It needs
             <url>https://raw.githubusercontent.com/aims-ks/mvn-repo/master/</url>
         </repository>
 
+        <!-- Open AIMS maven repository on GitHub -->
+        <repository>
+            <id>github_openaims</id>
+            <name>GitHub Open-AIMS repo</name>
+            <url>https://maven.pkg.github.com/open-AIMS/*</url>
+        </repository>
+
         <repository>
             <id>edu-ucar-snapshots-repo</id>
             <name>UCAR snapshots repo</name>
@@ -24,7 +31,7 @@ This jar is not a replacement for edal-commons, it's just an overwrite. It needs
         <dependency>
             <groupId>uk.ac.rdg.resc</groupId>
             <artifactId>edal-common_fix-mem-leak</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.5</version>
             <type>jar</type>
         </dependency>
         ...
